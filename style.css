@@ -204,8 +204,21 @@ main{
     color:#19d63d;
     margin-left:10px;
 }
-.coloured:hover{
+.coloured{
+    margin:20px 0;
+    color:white;
+    font-size: 18px;
+    font-weight:600;
+    cursor:pointer;
+}
+.coloured:hover,
+.coloured:hover i{
     color:rgb(21, 21, 56);
+    transition: color 0.3s ease;
+}
+.coloured i{
+    color:white;
+    margin-left:10px;
 }
 .more:hover{
     margin-left: 20px;
