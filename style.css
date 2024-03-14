@@ -826,7 +826,7 @@ footer{
         padding:1px;
     }
     .card3 .know{
-        margin:15px 0;
+        margin:25px 0;
     }
     .know{
         margin:20px 0;
@@ -847,6 +847,9 @@ footer{
     }
     .page-3-left p:nth-of-type(2){
         font-size: 25px;
+    }
+    .page-6-card-description-2 .know{
+        margin-top: 40px;
     }
     .page-4-right{
         margin:auto;
@@ -989,13 +992,12 @@ footer{
         font-weight: 600;
     }
     .page-10-card-3 .know{
-        padding-top: 0px;
+        margin-top: 15px;
     }
     .page-10-card-outer{
         padding:0 7.5px;
     }
 }
-
 
 @media(max-width:767px){
     *{
@@ -1283,8 +1285,8 @@ footer{
         font-weight: 700;
     }
     .page-9-content{
-        padding:90px 20px;
-        padding-bottom: 40px;
+        padding:70px 20px;
+        padding-bottom: 20px;
 
     }
     .page-9-content img{
