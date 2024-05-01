@@ -149,7 +149,7 @@ main{
     top:40%;
     left:5%;
 }
-.front-text p{
+.front-text p:first-of-type{
     font-size: 50px;
     color:white;
     font-weight: 700;
@@ -157,6 +157,12 @@ main{
 .front-text span{
     color:#14ab68;
 }
+.subtitle{
+    color:#cfcccc;
+    margin-top:0;
+    font-size:18px;
+}
+
 .page-2{
     padding-top:70px;
     position: relative;
@@ -377,7 +383,6 @@ main{
 }
 .page-7-right img{
     width:100%;
-    height:500px;
 }
 .page-8{
     padding: 0;
@@ -814,8 +819,11 @@ footer{
         padding:10px 13px;
         font-size: 15px;
     }
-    .front-text p{
+    .front-text p:first-of-type{
         font-size: 40px;
+    }
+    .subtitle{
+        font-size:16px;
     }
     .page-2{
         padding-top:60px;
@@ -956,7 +964,6 @@ footer{
     }
     .page-7-right img{
         width:100%;
-        height:400px;
     }
     .page-8-left{
         padding-top: 50px;
@@ -1063,10 +1070,13 @@ footer{
         top:60%;
         left:5%;
     }
-    .front-text p{
+    .front-text p:first-of-type{
         font-size: 35px;
         color:white;
         font-weight: 700;
+    }
+    .subtitle{
+        font-size:14px;
     }
     .page-2{
         padding-top:70px;
@@ -1106,8 +1116,9 @@ footer{
         color:#14ab68;
         margin-left:10px;
     }
-    .page-3{
+    .page-3 .page-3-flex{
         padding:30px 0 35px 0;
+        flex-direction: column-reverse;
     }
     .page-3-left{
         padding:15px;
@@ -1129,6 +1140,9 @@ footer{
     }
     .page-3-right img{
         width:100%;
+    }
+    .page-3{
+        padding-top:20px;
     }
     .page-4-left{
         width:100%;
@@ -1252,7 +1266,9 @@ footer{
         margin-bottom: 20px;
     }
     .page-7-right{
-        display: none;
+        padding: 10px 30px;
+        display: block;
+        width:100%;
     }
     .page-8-left{
         background-color: #14ab68;
@@ -1482,10 +1498,13 @@ footer{
         top:60%;
         left:5%;
     }
-    .front-text p{
+    .front-text p:first-of-type{
         font-size: 30px;
         color:white;
         font-weight: 700;
+    }
+    .subtitle{
+        font-size:13px;
     }
     .page-2{
         padding-top:70px;
@@ -1526,7 +1545,7 @@ footer{
         margin-left:10px;
     }
     .page-3{
-        padding:100px 0 35px 0;
+        padding:20px 0 35px 0;
     }
     .page-3-left{
         padding:15px;
@@ -1654,7 +1673,9 @@ footer{
         margin-bottom: 20px;
     }
     .page-7-right{
-        display: none;
+        padding: 10px 30px;
+        display: block;
+        width:100%;
     }
     .page-8-left{
         background-color: #14ab68;
